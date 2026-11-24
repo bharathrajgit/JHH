@@ -1,0 +1,30 @@
+.site-footer {
+  background: #3b71ca;
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer-inner {
+  min-height: 68px;
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  gap: 6px;
+}
+
+.footer-inner p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .footer-inner {
+    min-height: 64px;
+    padding: 16px 0;
+    font-size: 13px;
+  }
+}

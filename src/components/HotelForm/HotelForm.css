@@ -1,0 +1,67 @@
+.hotel-form .form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.hotel-form .form-group {
+  margin-bottom: 14px;
+}
+
+.hotel-form .form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.hotel-form .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+.hotel-form .form-group input,
+.hotel-form .form-group textarea,
+.hotel-form .form-group select {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.hotel-form .form-group textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.hotel-form .error-text {
+  color: #dc3545;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.hotel-form .image-preview {
+  margin-top: 10px;
+  width: 220px;
+  height: 150px;
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.hotel-form .image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hotel-form .form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .hotel-form .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
