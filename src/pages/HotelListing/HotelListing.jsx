@@ -77,8 +77,8 @@ function HotelListing() {
   return (
     <div className="hotel-listing-page">
       <Helmet>
-        <title>Hotels | Hotel Listing Management</title>
-        <meta name="description" content="Browse, search, filter, edit, and delete hotel listings." />
+        <title>JHH | Jahir Hussian Hotel</title>
+        <meta name="description" content="Browse, search, filter, add, edit, and delete hotel listings." />
       </Helmet>
 
       <Header />

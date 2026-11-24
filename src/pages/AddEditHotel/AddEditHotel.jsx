@@ -31,14 +31,14 @@ function AddEditHotel() {
     return (
       <div className="add-edit-page">
         <Helmet>
-          <title>Hotel Not Found | Hotel Listing Management</title>
+          <title>Hotel Not Found | JHH</title>
         </Helmet>
         <Header />
         <main className="page-content">
           <div className="container form-page">
             <div className="error-state">
               <p>Hotel not found.</p>
-              <Link to="/" className="btn-secondary">Back to Hotels</Link>
+              <Link to="/" className="btn-secondary">Back to Listings</Link>
             </div>
           </div>
         </main>
@@ -52,8 +52,8 @@ function AddEditHotel() {
   return (
     <div className="add-edit-page">
       <Helmet>
-        <title>{pageTitle} | Hotel Listing Management</title>
-        <meta name="description" content={`${pageTitle} details in the hotel listing application.`} />
+        <title>{pageTitle} | JHH</title>
+        <meta name="description" content={`${pageTitle} details in the Jahir Hussian Hotel (JHH) listing application.`} />
       </Helmet>
 
       <Header />

@@ -28,8 +28,8 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link to="/" className="logo">
-          <span className="logo-mark">HS</span>
-          <span className="logo-text">HotelStay</span>
+          <span className="logo-mark">JHH</span>
+          <span className="logo-text">JHH</span>
         </Link>
         <div className='search-container'>
            <form className="search-bar" onSubmit={handleSearchSubmit}>

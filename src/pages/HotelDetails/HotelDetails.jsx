@@ -19,14 +19,14 @@ function HotelDetails() {
     return (
       <div className="hotel-details-page">
         <Helmet>
-          <title>Hotel Not Found | Hotel Listing Management</title>
+          <title>Hotel Not Found | JHH</title>
         </Helmet>
         <Header />
         <main className="page-content">
           <div className="container details-page">
             <div className="error-state">
               <p>Hotel not found.</p>
-              <Link to="/" className="btn-secondary">Back to Hotels</Link>
+              <Link to="/" className="btn-secondary">Back to Listings</Link>
             </div>
           </div>
         </main>
@@ -40,7 +40,7 @@ function HotelDetails() {
   return (
     <div className="hotel-details-page">
       <Helmet>
-        <title>{hotel.title} | Hotel Listing Management</title>
+        <title>{hotel.title} | JHH</title>
         <meta name="description" content={hotel.description} />
       </Helmet>
 
@@ -48,7 +48,7 @@ function HotelDetails() {
 
       <main className="page-content">
         <div className="container details-page">
-          <Link to="/" className="back-link">&larr; Back to Hotels</Link>
+          <Link to="/" className="back-link">&larr; Back to Listings</Link>
 
           <div className="card">
             <div className="details-layout">

@@ -1,6 +1,6 @@
-# HotelStay – Complete UI Project Explanation and Interview Preparation
+# JHH (Jahir Hussian Hotel) – Complete UI Project Explanation and Interview Preparation
 
-**Project:** HotelStay (Hotel Listing Management UI)  
+**Project:** JHH (Jahir Hussian Hotel) - Hotel Listing Management UI  
 **Type:** Frontend-only React application  
 **Prepared for:** Technical interview explanation and project walkthrough  
 **Source basis:** Actual files in this repository (inspected from `package.json`, `src/`, and CSS files)
@@ -34,7 +34,7 @@
 ## Chapter 1: Project Introduction
 
 ### Project overview
-HotelStay is a **frontend-only hotel listing management user interface** built with React and Vite. It displays a curated set of hotel records, allows users to browse and inspect hotel information, and provides in-browser interactions such as search, filtering, pagination, viewing details with a map, adding/editing hotel entries through a form, and deleting listings. All data is handled on the client side using local sample data, Redux state, and browser `localStorage` persistence.
+JHH (Jahir Hussian Hotel) is a **frontend-only hotel listing management user interface** built with React and Vite. It displays a curated set of hotel records, allows users to browse and inspect hotel information, and provides in-browser interactions such as search, filtering, pagination, viewing details with a map, adding/editing hotel entries through a form, and deleting listings. All data is handled on the client side using local sample data, Redux state, and browser `localStorage` persistence.
 
 ### Problem statement
 Users need a simple way to browse hotel options, quickly find relevant hotels by name, narrow results using practical criteria (location, rating, price range), inspect details (including location on a map), and manage a local list of hotel entries in a clear, responsive interface without requiring a backend service.
@@ -479,7 +479,7 @@ The listing page (`src/pages/HotelListing/HotelListing.jsx`) renders:
 - **Footer** (`Footer` component)
 
 ### Header
-- **Logo:** `HS` mark and `HotelStay` text linked to `/` (`Header.jsx`, `.logo`, `.logo-mark`, `.logo-text`).
+- **Logo:** `JHH` mark and `JHH` text linked to `/` (`Header.jsx`, `.logo`, `.logo-mark`, `.logo-text`).
 - **Search bar:** controlled input bound to Redux `searchTerm` with placeholder "Search hotels by title..." and submit button; form submit prevents default and navigates to `/` if needed.
 - **Add Hotel:** `+ Add Hotel` link to `/hotels/add` (present in current implementation).
 
@@ -725,7 +725,7 @@ const mapSrc = `https://www.openstreetmap.org/export/embed.html?bbox=${hotel.lon
 ## Chapter 18: Technical Interview Preparation
 
 ### 1) One-minute project introduction
-"HotelStay is a frontend-only hotel listing management UI built with React, Vite, Redux Toolkit, React Router, and plain CSS. It loads sample hotel data and persists hotel changes in browser localStorage. Users can search hotels by title, apply location/rating/price filters, browse paginated results, view hotel details with an OpenStreetMap embed, and add, edit, or delete hotel entries through a reusable validated form. I focused on simple, readable component structure, centralized Redux state, and responsive CSS layouts."
+"JHH (Jahir Hussian Hotel) is a frontend-only hotel listing management UI built with React, Vite, Redux Toolkit, React Router, and plain CSS. It loads sample hotel data and persists hotel changes in browser localStorage. Users can search hotels by title, apply location/rating/price filters, browse paginated results, view hotel details with an OpenStreetMap embed, and add, edit, or delete hotel entries through a reusable validated form. I focused on simple, readable component structure, centralized Redux state, and responsive CSS layouts."
 
 ### 2) Three-minute project explanation
 "The app starts from `index.html` and `src/main.jsx`, where I wrap the app with Redux `Provider` and `BrowserRouter`. `App.jsx` defines routes for the listing page, add/edit page, and details page. Initial hotel data comes from `src/data/hotels.js`, but `src/redux/store.js` first tries to load a validated `hotelListings` array from `localStorage` so changes survive refresh.
@@ -749,7 +749,7 @@ The UI is componentized: `HotelList` renders `HotelItem` rows with view/edit/del
 ### 4) At least 75 interview questions with answers (based on actual source)
 
 #### Project introduction (1-5)
-1. **Q:** What is HotelStay?  
+1. **Q:** What is JHH?  
    **A:** A frontend-only hotel listing management UI built with React, Redux Toolkit, React Router, and plain CSS, using local sample data and `localStorage` persistence.
 2. **Q:** What problem does it solve?  
    **A:** It helps users browse, search, filter, paginate, inspect, and locally manage hotel listings in a simple interface.
@@ -997,4 +997,4 @@ The UI is componentized: `HotelList` renders `HotelItem` rows with view/edit/del
 ---
 
 ## Final accuracy statement
-This document is based on the **current inspected source code** of the HotelStay project in this workspace. It documents implemented frontend behavior (including current add/edit form flow, validation, image preview handling, delete flow, Redux state, and localStorage persistence) and does **not** claim the presence of a backend, database, APIs, or authentication. Any future enhancements are explicitly labeled as not yet implemented.
+This document is based on the **current inspected source code** of the JHH project in this workspace. It documents implemented frontend behavior (including current add/edit form flow, validation, image preview handling, delete flow, Redux state, and localStorage persistence) and does **not** claim the presence of a backend, database, APIs, or authentication. Any future enhancements are explicitly labeled as not yet implemented.
